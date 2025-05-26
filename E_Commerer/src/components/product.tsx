@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import gamepad from "../assets/images/GamePad.png";
 
 function Product() {
   return (
     <>
       {" "}
-      <div className="snap-start ">
+      <div className="snap-start">
         {/* Cart with discount - START */}
-        <div className="relative mt-4 mb-10 mr-10  h-auto w-68 max-w-68">
+        <div className="group relative mt-4 mr-10 mb-10 h-auto w-68 max-w-68">
           <div className="flex h-61 items-center justify-center bg-gray-200">
             <div className="absolute mr-50 mb-49 flex h-7 w-14 justify-center rounded-2xl bg-red-500 font-semibold text-white">
               -40%
@@ -31,6 +32,7 @@ function Product() {
                   />
                 </svg>
               </div>
+              <Link to={"/detail"}>
               <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white transition-all duration-300 hover:scale-95 hover:bg-gray-400">
                 {" "}
                 <svg
@@ -53,7 +55,12 @@ function Product() {
                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
                   />
                 </svg>
-              </div>
+              </div></Link>
+            </div>
+            <div className="absolute inset-x-0 bottom-21 h-12 translate-y-1 transform bg-black text-center opacity-0 transition-all duration-300 ease-out group-hover:translate-y-0 group-hover:opacity-100">
+              <p className="mt-2 items-center font-semibold text-white transition-transform duration-300 hover:scale-125">
+                Add to cart
+              </p>
             </div>
             <div className="flex justify-center">
               <img src={gamepad} className="w-40" alt="gamepad" />
@@ -67,7 +74,6 @@ function Product() {
                 $160
               </span>
             </p>
-
             {/* Rating start - Start */}
             <div className="flex">
               {[...Array(4)].map((_, i) => (

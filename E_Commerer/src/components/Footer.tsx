@@ -17,7 +17,7 @@ function Footer() {
               type="text"
               name=""
               id=""
-              placeholder="Enter your email"
+              placeholder=" Enter your email"
               className="h-10 w-3/4 rounded-lg border"
             />
           </div>
@@ -25,7 +25,7 @@ function Footer() {
             <p className="mb-5 text-2xl font-bold">Support</p>
             <p className="mb-5">227 Phong Dien, Can Tho, Viet Nam</p>
             <p className="mb-5">quochoangnguyen2003ct@ gmail.com</p>
-            <p className="mb-5">+0333 744 591</p>
+            <p className="mb-5">+0555 555 555</p>
           </div>
           <div className="">
             <p className="mb-5 text-2xl font-bold">Account</p>

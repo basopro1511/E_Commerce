@@ -3,12 +3,11 @@ import promote from "../assets/images/Promote.png";
 import playstation5 from "../assets/images/playstation5.png";
 import arrivel2 from "../assets/images/Arrivel2.png";
 
-
 import ButtonViewAll from "../components/ButtonViewAll";
 import Devider from "../components/devider";
 import Header from "../components/header";
 import Product from "../components/product";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 function Home() {
   return (
     <>
@@ -118,7 +117,7 @@ function Home() {
               Flash Sales
             </p>
             {/* Time flash sales */}
-            <div className="mt-0 flex ">
+            <div className="mt-0 flex">
               <div className="mr-2 w-12">
                 <p className="text-xs">Days</p>
                 <p className="text-xl font-bold md:text-4xl">03</p>
@@ -181,21 +180,11 @@ function Home() {
           </div>
           {/* Product with sale - Start */}
           <div className="flex overflow-x-auto">
-            <div className="flex-shrink-0 snap-start">
               <Product />
-            </div>
-            <div className="flex-shrink-0 snap-start">
               <Product />
-            </div>
-            <div className="flex-shrink-0 snap-start">
+               <Product />
+              <Product />    <Product />
               <Product />
-            </div>
-            <div className="flex-shrink-0 snap-start">
-              <Product />
-            </div>
-            <div className="flex-shrink-0 snap-start">
-              <Product />
-            </div>
           </div>
           {/* Product with sale - End */}
           <ButtonViewAll></ButtonViewAll>
@@ -250,10 +239,10 @@ function Home() {
           </div>
           <div className="gap- grid grid-cols-1 md:grid-cols-4 lg:grid-cols-7">
             {/* CATEGORY COMPONENT - START*/}
-            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center">
-              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center">
+            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center hover:bg-red-500 hover:scale-90 hover:border-red-500 hover:text-white group duration-300 transition-all cursor-pointer">
+              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center ">
                 <svg
-                  className="h-15 w-15 text-gray-800 dark:text-black"
+                  className="h-15 w-15 text-gray-800  group-hover:text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -271,12 +260,11 @@ function Home() {
               <p className="mt-4">Phones</p>
             </div>
             {/* CATEGORY COMPONENT - END*/}
-
-            {/* CATEGORY COMPONENT - START*/}
-            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center">
-              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center">
+{/* CATEGORY COMPONENT - START*/}
+            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center hover:bg-red-500 hover:scale-90 hover:border-red-500 hover:text-white group duration-300 transition-all cursor-pointer">
+              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center ">
                 <svg
-                  className="h-15 w-15 text-gray-800 dark:text-black"
+                  className="h-15 w-15 text-gray-800  group-hover:text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -293,13 +281,11 @@ function Home() {
               </div>
               <p className="mt-4">Phones</p>
             </div>
-            {/* CATEGORY COMPONENT - END*/}
-
-            {/* CATEGORY COMPONENT - START*/}
-            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center">
-              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center">
+            {/* CATEGORY COMPONENT - END*/}{/* CATEGORY COMPONENT - START*/}
+            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center hover:bg-red-500 hover:scale-90 hover:border-red-500 hover:text-white group duration-300 transition-all cursor-pointer">
+              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center ">
                 <svg
-                  className="h-15 w-15 text-gray-800 dark:text-black"
+                  className="h-15 w-15 text-gray-800  group-hover:text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -316,12 +302,11 @@ function Home() {
               </div>
               <p className="mt-4">Phones</p>
             </div>
-            {/* CATEGORY COMPONENT - END*/}
-            {/* CATEGORY COMPONENT - START*/}
-            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center">
-              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center">
+            {/* CATEGORY COMPONENT - END*/}{/* CATEGORY COMPONENT - START*/}
+            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center hover:bg-red-500 hover:scale-90 hover:border-red-500 hover:text-white group duration-300 transition-all cursor-pointer">
+              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center ">
                 <svg
-                  className="h-15 w-15 text-gray-800 dark:text-black"
+                  className="h-15 w-15 text-gray-800  group-hover:text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -338,12 +323,11 @@ function Home() {
               </div>
               <p className="mt-4">Phones</p>
             </div>
-            {/* CATEGORY COMPONENT - END*/}
-            {/* CATEGORY COMPONENT - START*/}
-            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center">
-              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center">
+            {/* CATEGORY COMPONENT - END*/}{/* CATEGORY COMPONENT - START*/}
+            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center hover:bg-red-500 hover:scale-90 hover:border-red-500 hover:text-white group duration-300 transition-all cursor-pointer">
+              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center ">
                 <svg
-                  className="h-15 w-15 text-gray-800 dark:text-black"
+                  className="h-15 w-15 text-gray-800  group-hover:text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -360,12 +344,11 @@ function Home() {
               </div>
               <p className="mt-4">Phones</p>
             </div>
-            {/* CATEGORY COMPONENT - END*/}
-            {/* CATEGORY COMPONENT - START*/}
-            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center">
-              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center">
+            {/* CATEGORY COMPONENT - END*/}{/* CATEGORY COMPONENT - START*/}
+            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center hover:bg-red-500 hover:scale-90 hover:border-red-500 hover:text-white group duration-300 transition-all cursor-pointer">
+              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center ">
                 <svg
-                  className="h-15 w-15 text-gray-800 dark:text-black"
+                  className="h-15 w-15 text-gray-800  group-hover:text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -382,12 +365,11 @@ function Home() {
               </div>
               <p className="mt-4">Phones</p>
             </div>
-            {/* CATEGORY COMPONENT - END*/}
-            {/* CATEGORY COMPONENT - START*/}
-            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center">
-              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center">
+            {/* CATEGORY COMPONENT - END*/}{/* CATEGORY COMPONENT - START*/}
+            <div className="mt-10 mr-8 h-37 w-43 rounded-xl border-2 border-gray-500 text-center hover:bg-red-500 hover:scale-90 hover:border-red-500 hover:text-white group duration-300 transition-all cursor-pointer">
+              <div className="mt-7 mr-auto ml-auto flex h-auto w-auto items-center justify-center ">
                 <svg
-                  className="h-15 w-15 text-gray-800 dark:text-black"
+                  className="h-15 w-15 text-gray-800  group-hover:text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -427,7 +409,7 @@ function Home() {
             </div>
             {/* Next, Back icon End */}
           </div>
-          <div className="mt-4 flex">
+          <div className="mt-4 flex overflow-x-auto">
             <Product></Product>
             <Product></Product>
             <Product></Product>
@@ -444,7 +426,7 @@ function Home() {
             <p className="text-xl font-bold text-white md:text-5xl">
               Enhance Your <br /> Music Experience
             </p>
-            <div className="mt-8 grid gap-1 md:grid-cols-5 grid-cols-2">
+            <div className="mt-8 grid grid-cols-2 gap-1 md:grid-cols-5">
               <div className="mr-4 h-15 w-15 rounded-full border bg-white">
                 <p className="mt-2 items-center text-center font-bold">05 </p>
                 <p className="text-center text-xs">Days</p>
@@ -462,7 +444,7 @@ function Home() {
                 <p className="text-center text-xs">Seconds</p>
               </div>
             </div>
-            <button className="mt-8 h-14 w-1/2 md:w-43 rounded-2xl bg-green-400 font-semibold text-white transition-all duration-300 hover:scale-90 hover:bg-green-600">
+            <button className="mt-8 h-14 w-1/2 rounded-2xl bg-green-400 font-semibold text-white transition-all duration-300 hover:scale-90 hover:bg-green-600 md:w-43">
               {" "}
               Buy now
             </button>
@@ -543,7 +525,7 @@ function Home() {
               <div className="relative col-span-2 h-auto rounded-2xl border bg-[#0d0d0d] text-white">
                 <div className="absolute bottom-0 z-1 px-5 py-4 md:px-10 md:py-10">
                   <p className="text-2xl font-semibold">Women's Collections</p>
-                  <p className=" md:mt-4 md:mb-4">
+                  <p className="md:mt-4 md:mb-4">
                     Featured Woman Collections That <br /> Give You Another Vibe
                   </p>
                   <a className="text-xl font-semibold underline hover:cursor-pointer hover:text-blue-900">
@@ -560,9 +542,11 @@ function Home() {
               </div>
               <div className="relative rounded-2xl border bg-black text-white">
                 <div className="absolute bottom-0 z-1 px-5 py-4 md:px-10 md:py-10">
-                  <p className="text-xl md:text-2xl font-semibold">Speaker</p>
-                  <p className="text-xs md:mt-4 md:mb-4">Amazon Wireless speakers</p>
-                  <a className="md:text-xl font-semibold underline hover:cursor-pointer hover:text-blue-900">
+                  <p className="text-xl font-semibold md:text-2xl">Speaker</p>
+                  <p className="text-xs md:mt-4 md:mb-4">
+                    Amazon Wireless speakers
+                  </p>
+                  <a className="font-semibold underline hover:cursor-pointer hover:text-blue-900 md:text-xl">
                     Shop Now
                   </a>
                 </div>{" "}
@@ -577,8 +561,10 @@ function Home() {
               <div className="relative rounded-2xl border bg-black text-white">
                 <div className="absolute bottom-0 z-1 px-5 py-4 md:px-10 md:py-10">
                   <p className="text-2xl font-semibold">Perfume</p>
-                  <p className="text-xs md:mt-4 md:mb-4">GUCCI INTENSE OUD EDP</p>
-                  <a className="md:text-xl font-semibold underline hover:cursor-pointer hover:text-blue-900">
+                  <p className="text-xs md:mt-4 md:mb-4">
+                    GUCCI INTENSE OUD EDP
+                  </p>
+                  <a className="font-semibold underline hover:cursor-pointer hover:text-blue-900 md:text-xl">
                     Shop Now
                   </a>
                 </div>{" "}
@@ -660,7 +646,7 @@ function Home() {
         {/* Section End */}
       </main>
       {/* Main end */}
-            <Footer></Footer>
+      <Footer></Footer>
     </>
   );
 }
