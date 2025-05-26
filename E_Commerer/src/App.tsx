@@ -17,17 +17,17 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/home" element={<Home />}></Route>
-          <Route path="/" element={<Login />}></Route>
-          <Route path="/register" element={<Register />}></Route>
-          <Route path="/wishlist" element={<Wishlist />}></Route>
-          <Route path="/cart" element={<Cart />}></Route>
-          <Route path="/checkout" element={<Checkout />}></Route>
-          <Route path="/detail" element={<Detail />}></Route>
-          <Route path="/account" element={<Account />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/error" element={<Error />}></Route>
+          <Route path="/E_Commerce/home" element={<Home />}></Route>
+          <Route path="/E_Commerce" element={<Login />}></Route>
+          <Route path="/E_Commerce/register" element={<Register />}></Route>
+          <Route path="/E_Commerce/wishlist" element={<Wishlist />}></Route>
+          <Route path="/E_Commerce/cart" element={<Cart />}></Route>
+          <Route path="/E_Commerce/checkout" element={<Checkout />}></Route>
+          <Route path="/E_Commerce/detail" element={<Detail />}></Route>
+          <Route path="/E_Commerce/account" element={<Account />}></Route>
+          <Route path="/E_Commerce/about" element={<About />}></Route>
+          <Route path="/E_Commerce/contact" element={<Contact />}></Route>
+          <Route path="/E_Commerce/error" element={<Error />}></Route>
         </Routes>
       </Router>
     </>
